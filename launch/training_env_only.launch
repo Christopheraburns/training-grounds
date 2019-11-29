@@ -23,6 +23,5 @@
     </include>
 
 	<include file="$(find training_grounds)/launch/training_gear.launch"/>
-	<include file="$(find training_grounds)/launch/rover.launch"/>
-	<!--<node name="agent" pkg="training_grounds" type="run_local_rl_agent.sh" output="screen" required="true"/>-->
+	<include file="$(find training_grounds)/launch/rover_training_env.launch"/>
 </launch>
